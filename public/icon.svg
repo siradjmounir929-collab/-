@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fef3c7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Square Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Stylized Arabic Letter "ح" & Craftsman Symbol -->
+  <g fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Wrench & Hammer Crossed Motif -->
+    <path d="M170 342 L342 170" />
+    <path d="M305 135 L377 207 M350 180 L385 145" />
+    <circle cx="170" cy="342" r="32" fill="#1c1917" stroke="#ffffff" stroke-width="20" />
+  </g>
+  
+  <!-- Prominent Arabic "ح" in the center -->
+  <text x="256" y="270" font-family="'Cairo', sans-serif" font-size="160" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">
+    ح
+  </text>
+  
+  <!-- Subtle Badge Text below -->
+  <text x="256" y="440" font-family="'Cairo', sans-serif" font-size="34" font-weight="700" fill="#fef3c7" text-anchor="middle">
+    حرفي بلادي
+  </text>
+</svg>

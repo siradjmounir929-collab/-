@@ -1,0 +1,11 @@
+{
+  "name": "حرفي بلادي - دليل الحرفيين المعتمدين",
+  "description": "دليل رقمي شامل للبحث عن أفضل الحرفيين والمهنيين في مختلف الولايات مع أرقام هواتفهم، مواقعهم على الخريطة، وتقييمات وتجارب الزبائن الحقيقية.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+
